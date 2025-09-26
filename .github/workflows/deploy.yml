@@ -1,0 +1,30 @@
+name: Deploy to Firebase Hosting
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      # деплоим при ЛЮБЫХ изменениях в public/**
+      - 'public/**'
+      # если меняешь файл конфигурации Firebase — тоже деплоим
+      - 'firebase.json'
+      - '.firebaserc'
+      # если правишь сам workflow — пусть тоже сработает
+      - '.github/workflows/**'
+  # опционально: ручной запуск из вкладки Actions
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Deploy to Firebase Hosting
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}'
+          projectId: testconfigs-c3b83
+          channelId: live
