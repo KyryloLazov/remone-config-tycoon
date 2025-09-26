@@ -1,32 +1,44 @@
 {
   "Ru": {
-    "UIMenu": {
-      "Start": "Старт",
-      "Settings": "Настройки",
-      "ertertert": ""
+    "Menu": {
+      "Start": "Старт"
     },
-    "Player": {
+    "HUD": {
       "Health": "Здоровье"
+    },
+    "Settings": {
+      "Settings": "Настройки"
+    },
+    "": {
+      "": ""
     }
   },
   "En": {
-    "UIMenu": {
-      "Start": "Start",
-      "Settings": "Settings",
-      "ertertert": ""
+    "Menu": {
+      "Start": "Start 222"
     },
-    "Player": {
+    "HUD": {
       "Health": "Health"
+    },
+    "Settings": {
+      "Settings": "Settings"
+    },
+    "": {
+      "": ""
     }
   },
-  "Uk": {
-    "UIMenu": {
-      "Start": "Старт",
-      "Settings": "Налаштування",
-      "ertertert": ""
+  "Ua": {
+    "Menu": {
+      "Start": "Старт"
     },
-    "Player": {
+    "HUD": {
       "Health": "Здоров'я"
+    },
+    "Settings": {
+      "Settings": "Налаштування"
+    },
+    "": {
+      "": ""
     }
   }
 }
