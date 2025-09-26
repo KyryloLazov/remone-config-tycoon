@@ -1,0 +1,32 @@
+{
+  "Ru": {
+    "UIMenu": {
+      "Start": "Старт",
+      "Settings": "Настройки",
+      "ertertert": ""
+    },
+    "Player": {
+      "Health": "Здоровье"
+    }
+  },
+  "En": {
+    "UIMenu": {
+      "Start": "Start",
+      "Settings": "Settings",
+      "ertertert": ""
+    },
+    "Player": {
+      "Health": "Health"
+    }
+  },
+  "Uk": {
+    "UIMenu": {
+      "Start": "Старт",
+      "Settings": "Налаштування",
+      "ertertert": ""
+    },
+    "Player": {
+      "Health": "Здоров'я"
+    }
+  }
+}
