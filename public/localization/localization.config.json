@@ -1,7 +1,10 @@
 {
   "ru": {
     "Menu": {
-      "Start": "Старт"
+      "Start": "Старт",
+      "0_loading": 1111,
+      "1_loading": 222,
+      "2_loading": 333
     },
     "HUD": {
       "Health": "Здоровье"
@@ -15,7 +18,10 @@
   },
   "eng": {
     "Menu": {
-      "Start": "Start 222"
+      "Start": "Start 222",
+      "0_loading": 1111,
+      "1_loading": 222,
+      "2_loading": 333
     },
     "HUD": {
       "Health": "Health"
@@ -29,7 +35,10 @@
   },
   "ua": {
     "Menu": {
-      "Start": "Старт"
+      "Start": "Старт",
+      "0_loading": 1111,
+      "1_loading": 222,
+      "2_loading": 333
     },
     "HUD": {
       "Health": "Здоров'я"
